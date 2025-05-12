@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/1.new.css">
+    <link rel="stylesheet" href="css/2.grid.css">
+    <link rel="stylesheet" href="css/3.table.css">
+    <link rel="stylesheet" href="css/4.form.css">
+    <link rel="stylesheet" href="css/5.menu.css">
+    <link rel="stylesheet" href="css/6.icomoon.css">
+    <link rel="stylesheet" href="css/7-kvikun.css"> 
+    <link rel="stylesheet" href="css/10.animate.css">
+    <link rel="stylesheet" href="css/8.animations.css">
+    <link rel="stylesheet" href="css/9.custom.css">
+   
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="toplabel">&#9776;</label>
+    <section class="topmenu">
+      <a href="index.html" ><span class="icon-home">Front Page</span></a>
+      <a href="About_me.html"><span class="icon-sphere">About Me</span></a>
+      <a href="About-Isaac.html"><span class="icon-circle-down">What is Isaac?</span></a>
+      <a href="#schedule"><span class="icon-cart">Purchase Merch</span></a>
+      <a href="#login"><span class="icon-user">Login</span></a>
+      <div class="socialbutts">
+        <a href="https://www.facebook.com/theedmundmcmillen/"><span class="icon-facebook2"></span></a>
+        <a href="#"><span class="icon-github"></span></a>
+        <a href="https://www.youtube.com/souldescen"><span class="icon-youtube"></span></a>
+        <a href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/"><span class="icon-steam2"></span></a>
+      </div>
+    </section>
+  </nav>
+  <header class="container col-2">
+      <section>
+        <!--img src="images/alien-svgrepo-com.svg" class="svgLogo"-->
+        <h1 class="h1-1">Purchase<br>The Binding Of Isaac: Rebirth Merch</h1>
+      </section>
+      <section>
+        <center>
+            <img class="iconimage" src="images/gifs/binding-of-specialist-dance.gif"
+        </center>
+      </section>
+  </header>
+  <!--banner-->
+  <div class="bannerBg">
+    <section class="col-3 container">
+      <div class="value">
+        <h1>97%</h1>
+        <h3>Say</h3>
+        <p>This will be one of the most fun games you will play in your life</p>
+      </div>
+      <div class="value">
+        <h1>94%</h1>
+        <h3>Very Positive</h3>
+        <p>Reviews for this game are amazingly good
+      </div>
+      <div class="value">
+        <h1>13%</h1>
+        <h3>100%'ed</h3>
+        <p>The game<br> Average time took about 600-1000 Hours.</p>
+      </div>
+    </section>
+    <section class="container">
+      <table>
+        <caption>The Binding Of Isaac: Rebirth Merch</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>What it is.</th>
+                <th>Cost</th>
+                <th>Purchase</th>
+            </tr>
+        </thead>
+        <tbody id="#schedule">
+            <tr>
+                <td data-label="Name">The Binding Of Isaac: Four Souls</td>
+                <td data-label="What it is:">Board Game</td>
+                <td data-label="Price:">$65.45 w/Tax</td>
+                <td data-label="Image of Item:"><img class="imgpurchase" src="images/Purchaseitems/binding-of-isaac-four-souls-200x200.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td data-label="Name">The Binding Of Isaac: Four Souls Ultimate Edition</td>
+                <td data-label="What it is:">Boardgame + ALL DLCS</td>
+                <td data-label="Price:">$169.47 w/Tax</td>
+                <td data-label="Image of Item:"><img class="imgpurchase" src="images/Purchaseitems/BOI4SUC.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td data-label="Name">Isaac Plusie</td>
+                <td data-label="What it is:">Plushie</td>
+                <td data-label="Price:">$24.99 w/Tax</td>
+                <td data-label="Image of Item:"><img class="imgpurchase" src="images/Purchaseitems/Isaacplushie.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td data-label="Name">The Forgotten, Lilith, Blue Baby and Guppy Figures</td>
+                <td data-label="What it is:">Figurines</td>
+                <td data-label="Price:">$59.99 w/Tax</td>
+                <td data-label="Image of Item:"><img class="imgpurchase" src="images/Purchaseitems/IsaacFLBBGFIGURES.jpg" alt=""></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">These are all trademarketed wares, I DO NOT OWN THEM NOR ARE YOU PURCHASING THEM BY PRESSING PURCHASE. THIS IS PURELY FOR A TEST SITE</th>
+            </tr>
+        </tfoot>
+      
+    </table>
+    
+      
+
+      <section>
+
+        <form action="takk.html" method="get">
+          <fieldset class="account-info">
+            <legend id="#login">Innskráning</legend>
+            <p class="col-2"> 
+              <label>
+                First Name
+                <input type="text" name="Firstname" required placeholder="Emma">
+              </label>
+              <label>
+                Last Name
+                <input type="text" name="Lastname" required placeholder="Róbertsdóttir">
+              </label>
+            </p>
+            <p>
+              Gender
+              <label>
+                <input type="radio" name="Kyn" value="Hann"> Hann |
+              </label>
+              <label>
+                <input type="radio" name="Kyn" value="Hún"> Hún |
+              </label>
+              <label>
+                <input type="radio" name="Kyn" value="Hán"> Hán
+              </label>
+            </label>
+            </p>
+            <p class="col-2">
+              <label>Phone Number:
+                <input type="tel" name="simi" min="7" placeholder="Telephone (7 digits)">
+              </label>
+              <label>
+                Email
+                <input type="email" name="Email" placeholder="name@domain.com" required>
+              </label>
+            </p>
+
+            <p class="col-2">
+                <label>Billing Address:
+                  <input type="text" name="Address"  placeholder="House Number">
+                </label>
+                <label>
+                    <label>
+                        Available Products <br>
+                        <select name="vara" required>
+                          <option>The Binding Of Isaac: Four Souls</option>
+                          <option>The Binding Of Isaac: Four Souls Ultimate Edition</option>
+                          <option selected>Isaac Plushie</option>
+                          <option disabled>Isaac Figurines</option>
+                        </select>
+                </label>
+              </p>
+            
+            <section class="col-2">
+            <p>
+              </section>Anything you want to add?<textarea name="message" id="#" rows="5"  placeholder="Message"></textarea>
+            </p>
+            <p class="form-2">
+              <label>
+                <input type="checkbox" name="SignInPostList" onclick="myFunction()"> Delivery Method
+              </label>
+              <select value="val" id="MyCheck" disabled>
+                <option name="nr1" id="">DHL</option>
+                <option name="nr2" id="">Posturinn</option>
+                <option name="nr3" id="">Pick up at Posthouse</option>
+                <option name="nr4" id="" selected>Normal Delivery to house</option>
+              </select>
+            </p>
+            <p class="center">
+              <input type="submit" name="submit" value="Kaupa vöru">
+            </p>
+
+          </fieldset>
+        </form>
+
+        <h3>Algengar spurningar (FAQ) og Details listi.</h3>
+
+        
+  </main>
+  <footer class="col-3">
+    <nav>
+      <ul>
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <dl>              <!--Description list -->
+      <dt>Emma Róbertsdóttir</dt>
+      <dt>Vefhönnun</dt>
+      <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+      <dt>Tölvupóstur</dt>
+        <dd>--Kristox06@gmail.com</dd>
+    </dl>
+  </footer>
+    <p class="center">2 spönn, haust 2024.</p>
+  <nav>
+    <input type="checkbox" id="toggle2">
+    <label for="toggle2" class="chatlabel"><span class="icon-bubbles4"></span></label>
+    <section id="chatbox" class="chatmenu">
+      <form action="takkSkilabod.html" method="get">
+        <fieldset>
+          <legend id="#login2">Skilaboð</legend>
+          Nafn:
+          <input type="text" name="nafn" required>
+          Netfáng
+          <input type="email" name="email" required>
+          <textarea name="message" id="#" rows="5"  placeholder="Skilaboð" required></textarea>
+          <p class="center">
+            <input type="submit" value="Senda boð">
+          </p>
+        </fieldset>
+      </form>
+    </section>
+      
+  </nav>
+
+    <section id="login" class="overlay">
+      <form action="takk.html" method="get" class="popup">
+        <fieldset>
+          <legend id="#login">Innskráning</legend>
+          <a href="#" class="close">&times;</a>
+          Nafn: 
+          <input type="text" name="nafn"required>
+          Lykilorð:
+          <input type="password" name="password"required>
+          <p class="center">
+            <input type="submit" value="Innskráning">
+          </p>
+        </fieldset>
+      </form>
+    </section>
+    <script>
+      function myFunction() {
+        document.getElementById("MyCheck").disabled = false;
+      }
+      </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Nemandi">
+    <title>Verkefni 1. Vinnurammi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="icon" type="image/svg" href="images/rwd-icon.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle" class="toplabel">&#9776;</label>
+    <section class="topmenu">
+      <a href="index.html" ><span class="icon-home">Front Page</span></a>
+      <a href="About_me.html"><span class="icon-sphere">About Me</span></a>
+      <a href="About-Isaac.html"><span class="icon-circle-down">What is Isaac?</span></a>
+      <a href="Purchase.html"><span class="icon-cart">Purchase Merch</span></a>
+      <a href="#login"><span class="icon-user">Login</span></a>
+      <div class="socialbutts">
+        <a href="https://www.facebook.com/theedmundmcmillen/"><span class="icon-facebook2"></span></a>
+        <a href="#"><span class="icon-github"></span></a>
+        <a href="https://www.youtube.com/souldescen"><span class="icon-youtube"></span></a>
+        <a href="https://store.steampowered.com/app/250900/The_Binding_of_Isaac_Rebirth/"><span class="icon-steam2"></span></a>
+      </div>
+    </section>
+  </nav>
+  <header class="container col-2">
+      <section>
+        <!--img src="images/alien-svgrepo-com.svg" class="svgLogo"-->
+        <h1 class="h1-1">About Me<br>And Why I chose The Binding Of Isaac?</h1>
+        <div class="iconlogo"><span class="icon-teikning1"></span></div>
+
+      </section>
+      <section>
+        <img class="iconimageAM" src="images/EmmaMynd.jpg">
+      </section>
+  </header>
+  <!--banner-->
+  <div class="bannerBg">
+    <main class="container">
+
+      <section >
+        <article>
+  
+        <section>
+          <details>
+            <summary>
+              Why did you pick The Binding Of Isaac?
+            </summary>
+            <h5>The reason as to why I picked The Binding Of Isaac is due to the fact that it's a really fun game and has a special place in my heart. It has helped me through times in which were really hard for me. I have also gotten many friends to play this game and talk about it nearly daily to them.</h5>
+           </details>  
+        
+          <h3>About Me</h3>
+          <p>I was born June. 30th 2006 in Reykjavík and Live in Hafnarfjörður. I still live in Hafnarfjörður but go to school in Reykjavík. I used to go to the other school in Hafnarfjörður and learned to become an Electrician. I did finish the beginner Electrician course but dropped out and went into Computer Science. And started in this a year ago from now (5/12/2025). Nothing much more about me</p>   
+          <p class="center">
+              <a href="index.html" class="button center">Back to Front Page</a>
+            </p>
+        </section>
+      
+
+      
+    </section>
+  </main>
+  <footer class="col-3">
+    <nav>
+      <ul>
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li>Eveniet ducimus pariatur voluptate</li>
+        <li>Vitae animi, sed provident fuga</li>
+        <li>Lorem ipsum dolor sit amet consectetur</li>
+        <li>Provident sit aliquid a consequuntur</li>
+      </ul>
+    </nav>
+    <dl>              <!--Description list -->
+      <dt>Emma Róbertsdóttir</dt>
+      <dt>Vefhönnun</dt>
+      <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+      <dt>Tölvupóstur</dt>
+        <dd>--Kristox06@gmail.com</dd>
+    </dl>
+  </footer>
+    <p class="center">2 spönn, haust 2024.</p>
+  <nav>
+    <input type="checkbox" id="toggle2">
+    <label for="toggle2" class="chatlabel"><span class="icon-bubbles4"></span></label>
+    <section id="chatbox" class="chatmenu">
+      <form action="takkSkilabod.html" method="get">
+        <fieldset>
+          <legend id="#login2">Skilaboð</legend>
+          Nafn:
+          <input type="text" name="nafn" required>
+          Netfáng
+          <input type="email" name="email" required>
+          <textarea name="message" id="#" rows="5"  placeholder="Skilaboð"></textarea>
+          <p class="center">
+            <input type="submit" value="Senda boð">
+          </p>
+        </fieldset>
+      </form>
+    </section>
+      
+  </nav>
+
+    <section id="login" class="overlay">
+      <form action="Loginmotekid.html" method="get" class="popup">
+        <fieldset>
+          <legend id="#login">Innskráning</legend>
+          <a href="#" class="close">&times;</a>
+          Nafn: 
+          <input type="text" name="nafn"required>
+          Lykilorð:
+          <input type="password" name="password" required>
+          <p class="center">
+            <input type="submit" value="Innskráning">
+          </p>
+        </fieldset>
+      </form>
+    </section>
+    <script>
+      function myFunction() {
+        document.getElementById("MyCheck").disabled = false;
+      }
+      </script>
+</body>
+</html>
